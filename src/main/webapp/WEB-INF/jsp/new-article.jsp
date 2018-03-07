@@ -29,82 +29,67 @@
 </head>
 
 <body>
-	<div class="mobileNavigation" id="mobileNavigation">	
-	 
-		<div class="mobileMenu">
-			<ul class="list-block list-inline menuStyleIcon">
-				<li class="nav-item">
-					<a class="nav-link" href="#"><span class="ti-help"></span></a>
-				</li> 
-				<li class="nav-item">
-					<a class="nav-link" href="#"><span class="ti-heart"></span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#"><span class="ti-user"></span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#"><span class="ti-lock"></span> </a>
-				</li> 	
-				<li class="nav-item">
-					<a class="nav-link navbar-close" data-target="#mobileNavigation" href="javascript:void(0)"><span class="ti-close"></span> </a>
-				</li> 
-			</ul>
-			<ul class="list-inline menuStyleCon">
-				<li><a href="#">Home Decor & Repair</a></li>
-				<li><a href="#">Crafts</a></li>
-				<li><a href="#">Food & Drinks</a></li>
-				<li><a href="#">Entertaining</a></li>
-				<li><a href="#">Fashion & Beauty</a></li>
-				<li><a href="#">Holidays</a></li>
-				<li><a href="#">More</a></li>
-			</ul>
-		</div>
-	</div>	
-	<header>
+	<form class="form-inline my-lg-0 search_form">
+		<span class="ti-search"></span>
+		<input class="form-control " type="text" placeholder="What you want to find" aria-label="What you want to find">
+		<input type="submit" class="btn btn-outline-success my-2 my-sm-0" />
+		<a href="javascript:void(0);" class="search-close"><span class="ti-close"></span></a>
+	</form>
+	<header class="sticky-top"> 
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light ">
-				<a class="logo" href="#"><img src="logo.png" alt="" /></a>
-			  <button class="navbar-toggler" type="button" data-target="#mobileNavigation"   >
-				<span class="navbar-toggler-icon"></span>
-			  </button>
-			  
-			  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 				
-				<form class="form-inline my-2 my-lg-0 search_form">
-					<span class="ti-search"></span>
-					<input class="form-control " type="text" placeholder="What you want to find" aria-label="What you want to find">
-					<input type="submit" class="btn btn-outline-success my-2 my-sm-0" />
-				</form>
-				<ul class="navbar-nav ml-auto mt-lg-0 first_level">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				  
+				<a class="logo" href="index.html"><img src="logo.svg" alt="" /></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#actionicons" aria-controls="actionicons" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="ti-more"></span>
+				</button>
+				<div class="collapse navbar-collapse ml-auto mr-auto" id="navbarSupportedContent">
+				
+				<!--  -->
+				<ul class="navbar-nav  mt-lg-0 first_level">
 					<li class="nav-item">
-						<a class="nav-link" href="#"><span class="ti-help"></span><i>help</i></a>
+						<a class="nav-link" href="my-article.html">Crafts</a>
 					</li> 
 					<li class="nav-item">
-						<a class="nav-link" href="#"><span class="ti-heart"></span></a>
-					</li>
+						<a class="nav-link" href="my-article.html">Entertaining</a>
+					</li> 
 					<li class="nav-item">
-						<a class="nav-link" href="#"><span class="ti-user"></span></a>
-					</li>
+						<a class="nav-link" href="my-article.html">Holidays</a>
+					</li> 
 					<li class="nav-item">
-						<a class="nav-link" href="#"><span class="ti-lock"></span> </a>
-					</li> 					
+						<a class="nav-link" href="category.html">More</a>
+					</li> 
 				</ul>
 				
+				
 			  </div>
+			  <div class="collapse navbar-collapse" id="actionicons">	
+				  <ul class="navbar-nav ml-auto mt-lg-0 first_level">
+						<li class="nav-item">
+							<a class="nav-link toggleSearch" href="javascript:void(0)"><span class="ti-search"></span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><span class="ti-help"></span><i>help</i></a>
+						</li> 
+						<li class="nav-item">
+							<a class="nav-link" href="#"><span class="ti-heart"></span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="login.html"><span class="ti-user"></span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html"><span class="ti-lock"></span> </a>
+						</li> 					
+					</ul>
+			  </div>
+			  
 			</nav>	
 		</div>
-	</header>
-	<div class="secondLevelMenu text-center sticky-top">
-		<ul class="list-inline">
-			<li><a href="#">Home Decor & Repair</a></li>
-			<li><a href="#">Crafts</a></li>
-			<li><a href="#">Food & Drinks</a></li>
-			<li><a href="#">Entertaining</a></li>
-			<li><a href="#">Fashion & Beauty</a></li>
-			<li><a href="#">Holidays</a></li>
-			<li><a href="#">More</a></li>
-		</ul>
-	</div>
+	</header> 
 	
 	<div class="innerBanner">
 		<div class="container">
@@ -112,9 +97,9 @@
 				<div class="col-md-12">
 					<ul class="breadcrumbs list-inline text-left">
 						<li><a href="#">Home</a></li>  
-						<li><span>Article</span></li>
+						<li><span>New Article</span></li>
 					</ul>
-					<h1>Article</h1>
+					<h1>New Article</h1>
 					<p>Unique Bed and Breakfast speciality</p>
 				</div>
 				 
@@ -125,18 +110,85 @@
 	
 	<div class="articleContainer">
 		<div class="container">
-			 <div class="row">
+			<div class="submit-page">
+				<div class="notification notice large margin-bottom-55">
+					<h4>Don't Have an Account?</h4>
+					<p>If you don't have an account you can create one by entering your email address in contact details section. A password will be automatically emailed to you.</p>
+				</div>
+				
+				<h3>Basic Information</h3>
+				 
+				<div class="submit-section">
+
+					<!-- Title -->
+					<div class="form">
+						<h5>Property Title <i class="tip" data-tip-content="Type title that will also contains an unique feature of your property (e.g. renovated, air contidioned)"><div class="tip-content">Type title that will also contains an unique feature of your property (e.g. renovated, air contidioned)</div></i></h5>
+						<input class="search-field" type="text" value="">
+					</div> 
+					<div class="form">
+						<h5>Category<i class="tip" data-tip-content="Type title that will also contains an unique feature of your property (e.g. renovated, air contidioned)"><div class="tip-content">Type title that will also contains an unique feature of your property (e.g. renovated, air contidioned)</div></i></h5>
+						<div class="checkboxes in-row margin-bottom-20">
+					
+							<input id="check-2" type="checkbox" name="check">
+							<label for="check-2">Air Conditioning</label>
+
+							<input id="check-3" type="checkbox" name="check">
+							<label for="check-3">Swimming Pool</label>
+
+							<input id="check-4" type="checkbox" name="check">
+							<label for="check-4">Central Heating</label>
+
+							<input id="check-5" type="checkbox" name="check">
+							<label for="check-5">Laundry Room</label>	
+
+
+							<input id="check-6" type="checkbox" name="check">
+							<label for="check-6">Gym</label>
+
+							<input id="check-7" type="checkbox" name="check">
+							<label for="check-7">Alarm</label>
+
+							<input id="check-8" type="checkbox" name="check">
+							<label for="check-8">Window Covering</label>
+					
+						</div>
+					</div>
+				</div>
+				
+				<h3>Gallery</h3>
+				<div class="submit-section">
+					<form action="/file-upload" class="dropzone dz-clickable"><div class="dz-default dz-message"><span><i class="ti-plus"></i> Click here or drop files to upload</span></div></form>
+				</div>
+				
+				<h3>Detailed Information</h3>
+				<div class="submit-section"> 
+					 <textarea id="editor-container"></textarea>
+				</div>
+				
+				<button class="btn btn-outline-primary" type="submit">Submit Article</button> 
+				
+				
+			</div>
+		</div>
+	</div> 
+	<div class="section3" style="background-image: url(images/section3.png);">
+		<div class="container text-center text-white">
+			<h4 class="text-white RockSalt">Daily News & Tips</h4>
+			<h3 class="text-white RockSalt">Top Picks</h3>
+			<img src="images/arrow.png" />
+		</div>
+	</div>
+	
+	<div class="section4">
+		<div class="container">
+			<div class="row">
 				   
 
 				<div class="col-md-4">
 					<div class="lp-grid">
 						<div class="lp-grid-image" style="background-image: url(images/blog1.jpg);"></div>
 						<div class="lp-grid-desc">
-							<div class="lp-grid-box-description">
-								<div class="actionLinks animated fadeInDown">
-									<a href="#" class="text-white lis-bg11"><i class="ti-pencil-alt2 ab-center "></i></a>
-									<a href="#" class="text-white lis-bg6"><i class="ti-trash ab-center"></i></a>
-								</div>
+							<div class="lp-grid-box-description ">
 								<h4 class="lp-h4">
 									<a href="#">The Mark Hotel</a>
 								</h4> 
@@ -177,12 +229,7 @@
 					<div class="lp-grid">
 						<div class="lp-grid-image" style="background-image: url(images/blog1.jpg);"></div>
 						<div class="lp-grid-desc">
-							
 							<div class="lp-grid-box-description ">
-								<div class="actionLinks animated fadeInDown">
-									<a href="#" class="text-white lis-bg11"><i class="ti-pencil-alt2 ab-center "></i></a>
-									<a href="#" class="text-white lis-bg6"><i class="ti-trash ab-center"></i></a>
-								</div>
 								<h4 class="lp-h4">
 									<a href="#">The Mark Hotel</a>
 								</h4> 
@@ -224,10 +271,6 @@
 						<div class="lp-grid-image" style="background-image: url(images/blog1.jpg);"></div>
 						<div class="lp-grid-desc">
 							<div class="lp-grid-box-description ">
-								<div class="actionLinks animated fadeInDown">
-									<a href="#" class="text-white lis-bg11"><i class="ti-pencil-alt2 ab-center "></i></a>
-									<a href="#" class="text-white lis-bg6"><i class="ti-trash ab-center"></i></a>
-								</div>
 								<h4 class="lp-h4">
 									<a href="#">The Mark Hotel</a>
 								</h4> 
@@ -270,10 +313,7 @@
 				<a href="#" class="RockSalt ">load more</a>
 			</div> 
 		</div>
-	</div> 
-	 
-	
-	 
+	</div>
 	
 	
 	<div class="footer">

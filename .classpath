@@ -62,15 +62,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Shankey/.m2/repository/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="net.sf.json-lib"/>
-			<attribute name="maven.artifactId" value="json-lib"/>
-			<attribute name="maven.version" value="2.4"/>
-			<attribute name="maven.classifier" value="jdk15"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
