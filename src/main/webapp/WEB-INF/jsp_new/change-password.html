@@ -29,82 +29,67 @@
 </head>
 
 <body>
-	<div class="mobileNavigation" id="mobileNavigation">	
-	 
-		<div class="mobileMenu">
-			<ul class="list-block list-inline menuStyleIcon">
-				<li class="nav-item">
-					<a class="nav-link" href="#"><span class="ti-help"></span></a>
-				</li> 
-				<li class="nav-item">
-					<a class="nav-link" href="#"><span class="ti-heart"></span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#"><span class="ti-user"></span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#"><span class="ti-lock"></span> </a>
-				</li> 	
-				<li class="nav-item">
-					<a class="nav-link navbar-close" data-target="#mobileNavigation" href="javascript:void(0)"><span class="ti-close"></span> </a>
-				</li> 
-			</ul>
-			<ul class="list-inline menuStyleCon">
-				<li><a href="#">Home Decor & Repair</a></li>
-				<li><a href="#">Crafts</a></li>
-				<li><a href="#">Food & Drinks</a></li>
-				<li><a href="#">Entertaining</a></li>
-				<li><a href="#">Fashion & Beauty</a></li>
-				<li><a href="#">Holidays</a></li>
-				<li><a href="#">More</a></li>
-			</ul>
-		</div>
-	</div>	
-	<header>
+	<form class="form-inline my-lg-0 search_form">
+		<span class="ti-search"></span>
+		<input class="form-control " type="text" placeholder="What you want to find" aria-label="What you want to find">
+		<input type="submit" class="btn btn-outline-success my-2 my-sm-0" />
+		<a href="javascript:void(0);" class="search-close"><span class="ti-close"></span></a>
+	</form>
+	<header class="sticky-top"> 
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light ">
-				<a class="logo" href="#"><img src="logo.png" alt="" /></a>
-			  <button class="navbar-toggler" type="button" data-target="#mobileNavigation"   >
-				<span class="navbar-toggler-icon"></span>
-			  </button>
-			  
-			  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 				
-				<form class="form-inline my-2 my-lg-0 search_form">
-					<span class="ti-search"></span>
-					<input class="form-control " type="text" placeholder="What you want to find" aria-label="What you want to find">
-					<input type="submit" class="btn btn-outline-success my-2 my-sm-0" />
-				</form>
-				<ul class="navbar-nav ml-auto mt-lg-0 first_level">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				  
+				<a class="logo" href="index.html"><img src="logo.svg" alt="" /></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#actionicons" aria-controls="actionicons" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="ti-more"></span>
+				</button>
+				<div class="collapse navbar-collapse ml-auto mr-auto" id="navbarSupportedContent">
+				
+				<!--  -->
+				<ul class="navbar-nav  mt-lg-0 first_level">
 					<li class="nav-item">
-						<a class="nav-link" href="#"><span class="ti-help"></span><i>help</i></a>
+						<a class="nav-link" href="my-article.html">Crafts</a>
 					</li> 
 					<li class="nav-item">
-						<a class="nav-link" href="#"><span class="ti-heart"></span></a>
-					</li>
+						<a class="nav-link" href="my-article.html">Entertaining</a>
+					</li> 
 					<li class="nav-item">
-						<a class="nav-link" href="#"><span class="ti-user"></span></a>
-					</li>
+						<a class="nav-link" href="my-article.html">Holidays</a>
+					</li> 
 					<li class="nav-item">
-						<a class="nav-link" href="#"><span class="ti-lock"></span> </a>
-					</li> 					
+						<a class="nav-link" href="category.html">More</a>
+					</li> 
 				</ul>
 				
+				
 			  </div>
+			  <div class="collapse navbar-collapse" id="actionicons">	
+				  <ul class="navbar-nav ml-auto mt-lg-0 first_level">
+						<li class="nav-item">
+							<a class="nav-link toggleSearch" href="javascript:void(0)"><span class="ti-search"></span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><span class="ti-help"></span><i>help</i></a>
+						</li> 
+						<li class="nav-item">
+							<a class="nav-link" href="#"><span class="ti-heart"></span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="login.html"><span class="ti-user"></span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index.html"><span class="ti-lock"></span> </a>
+						</li> 					
+					</ul>
+			  </div>
+			  
 			</nav>	
 		</div>
-	</header>
-	<div class="secondLevelMenu text-center sticky-top">
-		<ul class="list-inline">
-			<li><a href="#">Home Decor & Repair</a></li>
-			<li><a href="#">Crafts</a></li>
-			<li><a href="#">Food & Drinks</a></li>
-			<li><a href="#">Entertaining</a></li>
-			<li><a href="#">Fashion & Beauty</a></li>
-			<li><a href="#">Holidays</a></li>
-			<li><a href="#">More</a></li>
-		</ul>
-	</div>
+	</header> 
 	
 	<div class="innerBanner">
 		<div class="container">
@@ -112,9 +97,9 @@
 				<div class="col-md-12">
 					<ul class="breadcrumbs list-inline text-left">
 						<li><a href="#">Home</a></li>  
-						<li><span>Login / Register</span></li>
+						<li><span>My Account</span></li>
 					</ul>
-					<h1>Login / Register</h1>
+					<h1>Change Password</h1>
 					<p>Unique Bed and Breakfast speciality</p>
 				</div>
 				 
@@ -125,89 +110,73 @@
 	
 	<div class="articleContainer">
 		<div class="container">
-			 <div class="row justify-content-center">
-				<div class="col-md-6">
-					<div class="my-account style-1 ">
+			 <div class="row">
 
-						<ul class="uitabs nav nav-tabs list-inline" role="tablist">
-							<li ><a href="#tab1" data-toggle="tab" role="tab" class="active">Log In</a></li>
-							<li class=""><a href="#tab2" data-toggle="tab" role="tab" >Register</a></li>
-						</ul>
 
-						<div class="tab-content mt-30" style="border: none;" >
+				<!-- Widget -->
+				<div class="col-md-4">
+					<div class="sidebar left">
 
-							<!-- Login -->
-							<div class="tab-pane fade show active" id="tab1" role="tabpanel">
-								<form method="post" class="login">
-
-									<p class="form-row form-row-wide">
-										<label for="username">Username:
-											<i class="ti-user"></i>
-											<input type="text" class="input-text" name="username" id="username" value="">
-										</label>
-									</p>
-
-									<p class="form-row form-row-wide">
-										<label for="password">Password:
-											<i class="ti-lock"></i>
-											<input class="input-text" type="password" name="password" id="password">
-										</label>
-									</p>
-
-									<p class="form-row">
-										<input type="submit" class="btn btn-primary" name="login" value="Login"> 
-										 
-									</p>
-
+						<div class="my-account-nav-container">
+							
+							<ul class="my-account-nav">
+								<li class="sub-nav-title">Manage Account</li>
+								<li><a href="my-account.html" ><i class="ti-user"></i> My Profile</a></li>
 								 
-									
-								</form>
-							</div>
+							</ul>
+							
+							<ul class="my-account-nav">
+								<li class="sub-nav-title">Manage Listings</li>
+								<li><a href="my-article.html"><i class="ti-layout-list-thumb-alt"></i> My Article</a></li>
+								<li><a href="new-article.html"><i class="ti-pencil-alt2"></i> New Article</a></li>
+							</ul>
 
-							<!-- Register -->
-							<div class="tab-pane fade" id="tab2" role="tabpanel">
-
-								<form method="post" class="register">
-									
-								<p class="form-row form-row-wide">
-									<label for="username2">Username:
-										<i class="ti-user"></i>
-										<input type="text" class="input-text" name="username" id="username2" value="">
-									</label>
-								</p>
-									
-								<p class="form-row form-row-wide">
-									<label for="email2">Email Address:
-										<i class="ti-email"></i>
-										<input type="text" class="input-text" name="email" id="email2" value="">
-									</label>
-								</p>
-
-								<p class="form-row form-row-wide">
-									<label for="password1">Password:
-										<i class="ti-lock"></i>
-										<input class="input-text" type="password" name="password1" id="password1">
-									</label>
-								</p>
-
-								<p class="form-row form-row-wide">
-									<label for="password2">Repeat Password:
-										<i class="ti-lock"></i>
-										<input class="input-text" type="password" name="password2" id="password2">
-									</label>
-								</p>
-
-								<p class="form-row">
-									<input type="submit" class="btn btn-primary" name="register" value="Register">
-								</p>
-
-								</form>
-							</div>
+							<ul class="my-account-nav">
+								<li><a href="change-password.html" class="current"><i class="ti-lock"></i> Change Password</a></li>
+								<li><a href="#"><i class="icofont icofont-logout"></i> Log Out</a></li>
+							</ul>
+							
 
 						</div>
+
 					</div>
 				</div>
-			 </div>
+
+				<div class="col-md-8">
+					<div class="row">
+
+
+						<div class="col-md-6  my-profile">
+							<h4 class="margin-top-0 margin-bottom-30">Change Password</h4>
+
+							<label>Current Password</label>
+							<input type="password">
+
+							<label>New Password</label>
+							<input type="password">
+
+							<label>Confirm New Password</label>
+							<input type="password">
+
+							<p class="form-row">
+								<input type="submit" class="btn btn-primary" name="login" value="Change"> 
+								 
+							</p>
+
+							
+						</div> 
+
+						<div class="col-md-6">
+							<div class="notification notice">
+								<p>Your password should be at least 12 random characters long to be safe</p>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+
+			</div>  
 		</div>
 	</div> 
 	<div class="section3" style="background-image: url(images/section3.png);">
