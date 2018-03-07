@@ -1,8 +1,14 @@
 jQuery(document).ready(function(){
-	jQuery('.navbar-toggler').click(function(){
+	jQuery('.toggleSearch').click(function(){
+		jQuery('.search_form').addClass('active');
+	});
+	jQuery('.search-close').click(function(){
+		jQuery('.search_form').removeClass('active');
+	});
+	/*jQuery('.navbar-toggler').click(function(){
 		var target = jQuery(this).attr('data-target');
 		jQuery(target).toggleClass('active');
-	});
+	}); */
 	jQuery('.navbar-close').click(function(){
 		var target = jQuery(this).attr('data-target');
 		jQuery(target).removeClass('active');
