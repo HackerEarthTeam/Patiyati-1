@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/*
+web: java $JAVA_OPTS -cp target/Patiyati-1.0/WEB-INF/classes/com.spring.app.SpringBootWebApplication
