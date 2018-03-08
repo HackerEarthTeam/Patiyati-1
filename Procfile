@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/*
+web: java $JAVA_OPTS -cp target/classes:target/Patiyati-1.0.war
