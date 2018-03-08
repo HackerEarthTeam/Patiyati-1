@@ -1,1 +1,1 @@
-java $JAVA_OPTS -cp target/*
+web:java $JAVA_OPTS -cp target/*
