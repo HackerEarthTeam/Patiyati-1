@@ -88,7 +88,7 @@
 				<configuration>
 					<appName>patiyati</appName>
 					<processTypes>
-					 <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+					 <web>java $JAVA_OPTS -war target/*.war</web>
 					</processTypes>
 				</configuration>
 			</plugin>
