@@ -87,9 +87,6 @@
 				<version>2.0.3</version>
 				<configuration>
 					<appName>patiyati</appName>
-					<processTypes>
-					 <web>java $JAVA_OPTS -war target/*.war</web>
-					</processTypes>
 				</configuration>
 			</plugin>
 		</plugins>
