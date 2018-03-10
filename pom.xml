@@ -88,9 +88,9 @@
 				<configuration>
 					<appName>patiyati</appName>
 					<warFile>target/Patiyati-1.0.war</warFile>
-					<!-- <processTypes>
+					<processTypes>
 						<web>java $JAVA_OPTS -cp target/classes:target/dependency/* com.spring.app.SpringBootWebApplication</web>
-					</processTypes> -->
+					</processTypes>
 				</configuration>
 			</plugin>
 		</plugins>
