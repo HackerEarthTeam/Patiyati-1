@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/*com.spring.app.SpringBootWebApplication
+web: java $JAVA_OPTS -cp ./target/Patiyati-1.0.war
