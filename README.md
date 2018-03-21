@@ -10,8 +10,9 @@ This project aims at building a website that encourages women in the society by 
 Patiyati has used the following for its implementation:
 * [Spring Framework](https://projects.spring.io/spring-framework/) 
 * [MongoDB](https://docs.mongodb.com/tutorials/)
-* [HTML,CSS,BootStrap](#)
 * [Heroku](https://www.heroku.com/)
 
 ### Todo
 Include AI for user based search.
+
+git rm --cached
