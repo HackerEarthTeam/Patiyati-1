@@ -15,4 +15,4 @@ Patiyati has used the following for its implementation:
 ### Todo
 Include AI for user based search.
 
-git rm --cached
+*/target/**
